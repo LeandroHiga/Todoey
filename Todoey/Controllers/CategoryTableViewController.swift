@@ -20,7 +20,7 @@ class CategoryTableViewController: SwipeTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        loadCategories()
+        loadCategories() //Load categories
     }
     
     override func viewWillAppear(_ animated: Bool) {
